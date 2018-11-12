@@ -1,0 +1,83 @@
+.contacto{
+  width: 80%;
+  margin: 10% 10% 10% 10% ;
+  padding: 30px;
+  height: auto;
+  background-color: #2f2f2f;
+  text-align: left;
+  box-sizing:border-box;
+  float: left;
+}
+.redesC{
+  float: right;
+  width: 35%;
+  position: relative;
+  margin-right: 60px;
+}
+
+.redesC a{
+  text-decoration: none;
+  color: red;
+}
+.botonC{
+  margin: 10px 0px 0px 0px;
+  border-radius:0px;
+  width: 5.5em;
+  height: auto;
+}
+
+form{
+  display:inline-block;
+  padding: 20px;
+}
+
+.articuloC{
+   float: left;
+   width: 50%;
+   position: relative;
+   margin-left: 20px;
+ }
+
+textarea{
+  width: 100%;
+  height: auto;
+ }
+
+.asunto{
+  width: 100%;
+  text-align: left;
+  height: auto;
+}
+
+footer{
+
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 840px){
+
+.redesC{
+  width: 100%;
+  left: 65px;
+}
+
+.articuloC{
+  width: 100%;
+}
+
+#ajuste{
+  margin-left: 0px;
+}
+
+
+form{
+  width: 80%;
+  height:auto;
+  overflow: visible;
+  visibility: visible;
+}
+footer p{
+  margin-left: 20px;
+}
+
+}
